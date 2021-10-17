@@ -1,0 +1,108 @@
+---
+title: "Portfolio"
+author: "Keana Flores"
+date: "10/12/2021"
+output: 
+  tufte::tufte_html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This portfolio represents the skills I have learned using R programming and ArcGIS Pro to create maps and use spatial data. These products demonstrate an understanding of visualization, spatial relationships, routes and networks, raster data, and interactive maps. I used R to understand spatial relationships at various scales, using administrative data, survey data, and crowd-sourced data. Displaying spatial data on maps can be useful in reports, posters, and web-based documents. 
+
+
+# Multiple Vector Layers
+
+This map used an OpenStreet basemap and spatial data from the Cambridge, Massachusetts. Parks are represented by polygons and the locations of fire stations are represented as points. 
+
+[![](fullsize/FireParks2.jpg)](https://keanaflores27.github.io/portfolio//fullsize/FireParks2.jpg){target="_blank"}
+
+# Georeferencing
+
+This historic map of Reykajavik, Iceland in 1902 is part of the Harvard Map Collection. This map was selected and scanned during a visit to the Harvard Maps Collection. The scanned map was georeferenced using ArcGIS Pro. Using a spatial dataset from the Icelandic government, one can see the changing coastline of Reykajavik. 
+
+[![](fullsize/Reyk.jpg)](https://keanaflores27.github.io/portfolio//fullsize/Reyk.jpg){target="_blank"}
+
+
+# Interactive Maps
+
+These are two interactive maps of Orange County, California that use data available from the United States Census API. 
+
+[![](fullsize/Interactive1.jpg)](https://keanaflores27.github.io/interactive/inter_black.html){target="_blank"}
+
+[![](fullsize/Interactive2.jpg)](https://keanaflores27.github.io/interactive/health_children.html){target="_blank"}
+
+
+# Spatial Releationships
+
+The following maps of Boston, Massachusetts demonstrate spatial relationships between points and polygons. 
+
+The average distance between libraries and the nearest electric-vehicle (EV) charging station.
+
+[![](fullsize/average.jpg)](https://keanaflores27.github.io/portfolio/fullsize/average.jpg){target="_blank"}
+
+The number of EV charging stations within each Boston neighborhood.
+
+[![](fullsize/ChargingStations2.jpeg)](https://keanaflores27.github.io/portfolio/fullsize/ChargingStations2.jpeg){target="_blank"}
+
+The density of EV charging stations within each Boston neighborhood.
+
+[![](fullsize/Density.jpeg)](https://keanaflores27.github.io/portfolio/fullsize/Density.jpeg){target="_blank"}
+
+EV charging stations by distance to a library.
+
+[![](fullsize/ChargingStations.jpeg)](https://keanaflores27.github.io/portfolio/fullsize/ChargingStations.jpeg){target="_blank"}
+
+
+# Iscochrones
+
+These maps shows isochrones based on transit travel times to the nearest library in Detroit, Michigan.
+
+[![](fullsize/Walk.jpg)](https://keanaflores27.github.io/portfolio/fullsize/Walk.jpg){target="_blank"}
+
+[![](fullsize/Walk2.jpg)](https://keanaflores27.github.io/portfolio/fullsize/Walk2.jpg){target="_blank"}
+
+
+# Accessibility
+
+This map of Detroit, Michigan shows the number of transit stops within each grid cell.
+
+[![](fullsize/TransitStops.jpg)](https://keanaflores27.github.io/portfolio/fullsize/TransitStops.jpg){target="_blank"}
+
+This map shows the number of transit stops within a 10 minute walk from each point in the grid. 
+
+[![](fullsize/TransitStops2.jpg)](https://keanaflores27.github.io/portfolio/fullsize/TransitStops2.jpg){target="_blank"}
+
+
+Using a half-life exponential function and a cutoff value of 5 minutes, we can create an accessibility score for transit access in Detroit. 
+
+[![](fullsize/Accessibility.jpg)](https://keanaflores27.github.io/portfolio/fullsize/Accessibility.jpg){target="_blank"}
+
+## Raster Data
+
+This map creates a raster layer from a polygon layer to show the pedestrian access to transit stops in Detroit, Michigan.
+
+[![](fullsize/PedStops.jpg)](https://keanaflores27.github.io/portfolio/fullsize/PedStops.jpg){target="_blank"}
+
+## Points From Grid Cells
+
+This map creates a vector layer from a raster layer to show pedestrian access to transit stops in Detroit.
+
+[![](fullsize/PedAccess.jpg)](https://keanaflores27.github.io/portfolio/fullsize/PedAccess.jpg){target="_blank"}
+
+## Polyons from Grid Cells
+
+This map recreates the polygon layer on a square grid. 
+
+[![](fullsize/PedAccess2.jpg)](https://keanaflores27.github.io/portfolio/fullsize/PedAccess2.jpg){target="_blank"}
+
+## Contours
+
+This map displays the polygon boundaries as countours. 
+
+[![](fullsize/PedAccess3.jpg)](https://keanaflores27.github.io/portfolio/fullsize/PedAccess3.jpg){target="_blank"}
+
